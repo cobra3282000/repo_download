@@ -1,0 +1,17 @@
+ptrszint *__ARRAY_STRING_TEMP=NULL;
+ptrszint *__ARRAY_STRING_FILE=NULL;
+ptrszint *__ARRAY_STRING_VER=NULL;
+float *__SINGLE_COUNT=NULL;
+qbs *__STRING_AA=NULL;
+float *__SINGLE_T=NULL;
+float *__SINGLE_LL=NULL;
+float *__SINGLE_L3=NULL;
+qbs *__STRING_TT=NULL;
+float *__SINGLE_L4=NULL;
+float *__SINGLE_LP=NULL;
+int32 console=1;
+int32 screen_hide_startup=1;
+int32 asserts=0;
+int32 vwatch=0;
+ptrszint data_size=0;
+uint8 *data=(uint8*)calloc(1,1);

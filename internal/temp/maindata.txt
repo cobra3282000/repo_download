@@ -1,0 +1,83 @@
+if (!__ARRAY_STRING_TEMP){
+__ARRAY_STRING_TEMP=(ptrszint*)mem_static_malloc(9*ptrsz);
+new_mem_lock();
+mem_lock_tmp->type=4;
+((ptrszint*)__ARRAY_STRING_TEMP)[8]=(ptrszint)mem_lock_tmp;
+__ARRAY_STRING_TEMP[4]= 0 ;
+__ARRAY_STRING_TEMP[5]=( 20000 )-__ARRAY_STRING_TEMP[4]+1;
+__ARRAY_STRING_TEMP[6]=1;
+__ARRAY_STRING_TEMP[0]=(ptrszint)mem_static_malloc(__ARRAY_STRING_TEMP[5]*8);
+tmp_long=__ARRAY_STRING_TEMP[5];
+while(tmp_long--){
+((uint64*)(__ARRAY_STRING_TEMP[0]))[tmp_long]=(uint64)qbs_new(0,0);
+}
+__ARRAY_STRING_TEMP[2]=1+2;
+}
+if (!__ARRAY_STRING_FILE){
+__ARRAY_STRING_FILE=(ptrszint*)mem_static_malloc(9*ptrsz);
+new_mem_lock();
+mem_lock_tmp->type=4;
+((ptrszint*)__ARRAY_STRING_FILE)[8]=(ptrszint)mem_lock_tmp;
+__ARRAY_STRING_FILE[4]= 0 ;
+__ARRAY_STRING_FILE[5]=( 20000 )-__ARRAY_STRING_FILE[4]+1;
+__ARRAY_STRING_FILE[6]=1;
+__ARRAY_STRING_FILE[0]=(ptrszint)mem_static_malloc(__ARRAY_STRING_FILE[5]*8);
+tmp_long=__ARRAY_STRING_FILE[5];
+while(tmp_long--){
+((uint64*)(__ARRAY_STRING_FILE[0]))[tmp_long]=(uint64)qbs_new(0,0);
+}
+__ARRAY_STRING_FILE[2]=1+2;
+}
+if (!__ARRAY_STRING_VER){
+__ARRAY_STRING_VER=(ptrszint*)mem_static_malloc(9*ptrsz);
+new_mem_lock();
+mem_lock_tmp->type=4;
+((ptrszint*)__ARRAY_STRING_VER)[8]=(ptrszint)mem_lock_tmp;
+__ARRAY_STRING_VER[4]= 0 ;
+__ARRAY_STRING_VER[5]=( 20000 )-__ARRAY_STRING_VER[4]+1;
+__ARRAY_STRING_VER[6]=1;
+__ARRAY_STRING_VER[0]=(ptrszint)mem_static_malloc(__ARRAY_STRING_VER[5]*8);
+tmp_long=__ARRAY_STRING_VER[5];
+while(tmp_long--){
+((uint64*)(__ARRAY_STRING_VER[0]))[tmp_long]=(uint64)qbs_new(0,0);
+}
+__ARRAY_STRING_VER[2]=1+2;
+}
+if(__SINGLE_COUNT==NULL){
+__SINGLE_COUNT=(float*)mem_static_malloc(4);
+*__SINGLE_COUNT=0;
+}
+if (!__STRING_AA)__STRING_AA=qbs_new(0,0);
+if(__SINGLE_T==NULL){
+__SINGLE_T=(float*)mem_static_malloc(4);
+*__SINGLE_T=0;
+}
+static double fornext_value5;
+static double fornext_finalvalue5;
+static double fornext_step5;
+static uint8 fornext_step_negative5;
+if(__SINGLE_LL==NULL){
+__SINGLE_LL=(float*)mem_static_malloc(4);
+*__SINGLE_LL=0;
+}
+if(__SINGLE_L3==NULL){
+__SINGLE_L3=(float*)mem_static_malloc(4);
+*__SINGLE_L3=0;
+}
+byte_element_struct *byte_element_6=NULL;
+if (!byte_element_6){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_6=(byte_element_struct*)(mem_static_pointer-12); else byte_element_6=(byte_element_struct*)mem_static_malloc(12);
+}
+if (!__STRING_TT)__STRING_TT=qbs_new(0,0);
+if(__SINGLE_L4==NULL){
+__SINGLE_L4=(float*)mem_static_malloc(4);
+*__SINGLE_L4=0;
+}
+if(__SINGLE_LP==NULL){
+__SINGLE_LP=(float*)mem_static_malloc(4);
+*__SINGLE_LP=0;
+}
+static double fornext_value8;
+static double fornext_finalvalue8;
+static double fornext_step8;
+static uint8 fornext_step_negative8;

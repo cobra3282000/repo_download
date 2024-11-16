@@ -1,0 +1,4 @@
+/home/darren/QB64/source
+/home/darren/QB64/qb64_2022-09-08-23-38-12_47f5044_lnx
+/home/darren/QB64/internal
+/home/darren/QB64/licenses

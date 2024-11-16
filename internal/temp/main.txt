@@ -1,0 +1,212 @@
+S_0:;
+do{
+sub__dest(func__console());
+if(!qbevent)break;evnt(8);}while(r);
+do{
+
+
+
+if(!qbevent)break;evnt(11);}while(r);
+do{
+sub_shell(qbs_new_txt_len("sudo pacman -Ss > tempfile.txt",30),1);
+qbs_cleanup(qbs_tmp_base,0);
+if(!qbevent)break;evnt(13);}while(r);
+do{
+sub_open_gwbasic(qbs_new_txt_len("i",1), 1 ,qbs_new_txt_len("tempfile.txt",12),NULL,0);
+qbs_cleanup(qbs_tmp_base,0);
+if(!qbevent)break;evnt(15);}while(r);
+do{
+*__SINGLE_COUNT= 0 ;
+if(!qbevent)break;evnt(17);}while(r);
+S_6:;
+while((~(func_eof( 1 )))||new_error){
+if(qbevent){evnt(19);if(r)goto S_6;}
+do{
+*__SINGLE_COUNT=*__SINGLE_COUNT+ 1 ;
+if(!qbevent)break;evnt(21);}while(r);
+do{
+tmp_fileno= 1 ;
+if (new_error) goto skip2;
+sub_file_line_input_string(tmp_fileno,((qbs*)(((uint64*)(__ARRAY_STRING_TEMP[0]))[array_check((qbr(*__SINGLE_COUNT))-__ARRAY_STRING_TEMP[4],__ARRAY_STRING_TEMP[5])])));
+if (new_error) goto skip2;
+skip2:
+qbs_cleanup(qbs_tmp_base,0);
+if(!qbevent)break;evnt(22);}while(r);
+do{
+tmp_fileno= 1 ;
+if (new_error) goto skip3;
+sub_file_line_input_string(tmp_fileno,__STRING_AA);
+if (new_error) goto skip3;
+skip3:
+qbs_cleanup(qbs_tmp_base,0);
+if(!qbevent)break;evnt(23);}while(r);
+ww_continue_1:;
+}
+ww_exit_1:;
+do{
+sub_close( 1 ,1);
+if(!qbevent)break;evnt(27);}while(r);
+S_12:;
+fornext_value5= 1 ;
+fornext_finalvalue5=*__SINGLE_COUNT;
+fornext_step5= 1 ;
+if (fornext_step5<0) fornext_step_negative5=1; else fornext_step_negative5=0;
+if (new_error) goto fornext_error5;
+goto fornext_entrylabel5;
+while(1){
+fornext_value5=fornext_step5+(*__SINGLE_T);
+fornext_entrylabel5:
+*__SINGLE_T=fornext_value5;
+if (fornext_step_negative5){
+if (fornext_value5<fornext_finalvalue5) break;
+}else{
+if (fornext_value5>fornext_finalvalue5) break;
+}
+fornext_error5:;
+if(qbevent){evnt(29);if(r)goto S_12;}
+do{
+*__SINGLE_LL=func_instr(NULL,((qbs*)(((uint64*)(__ARRAY_STRING_TEMP[0]))[array_check((qbr(*__SINGLE_T))-__ARRAY_STRING_TEMP[4],__ARRAY_STRING_TEMP[5])])),qbs_new_txt_len("/",1),0)+ 1 ;
+qbs_cleanup(qbs_tmp_base,0);
+if(!qbevent)break;evnt(31);}while(r);
+do{
+*__SINGLE_L3=((qbs*)(((uint64*)(__ARRAY_STRING_TEMP[0]))[array_check((qbr(*__SINGLE_T))-__ARRAY_STRING_TEMP[4],__ARRAY_STRING_TEMP[5])]))->len+ 1 ;
+qbs_cleanup(qbs_tmp_base,0);
+if(!qbevent)break;evnt(32);}while(r);
+do{
+qbs_set(__STRING_TT,func_mid(((qbs*)(((uint64*)(__ARRAY_STRING_TEMP[0]))[array_check((qbr(*__SINGLE_T))-__ARRAY_STRING_TEMP[4],__ARRAY_STRING_TEMP[5])])),qbr(*__SINGLE_LL),qbr(*__SINGLE_L3),1));
+qbs_cleanup(qbs_tmp_base,0);
+if(!qbevent)break;evnt(33);}while(r);
+do{
+*__SINGLE_L4=func_instr(NULL,__STRING_TT,qbs_new_txt_len(" ",1),0);
+qbs_cleanup(qbs_tmp_base,0);
+if(!qbevent)break;evnt(35);}while(r);
+do{
+tmp_long=array_check((qbr(*__SINGLE_T))-__ARRAY_STRING_FILE[4],__ARRAY_STRING_FILE[5]);
+if (!new_error) qbs_set( ((qbs*)(((uint64*)(__ARRAY_STRING_FILE[0]))[tmp_long])),func_mid(__STRING_TT, 1 ,qbr(*__SINGLE_L4),1));
+qbs_cleanup(qbs_tmp_base,0);
+if(!qbevent)break;evnt(37);}while(r);
+fornext_continue_4:;
+}
+fornext_exit_4:;
+S_19:;
+fornext_value8= 1 ;
+fornext_finalvalue8=*__SINGLE_COUNT;
+fornext_step8= 1 ;
+if (fornext_step8<0) fornext_step_negative8=1; else fornext_step_negative8=0;
+if (new_error) goto fornext_error8;
+goto fornext_entrylabel8;
+while(1){
+fornext_value8=fornext_step8+(*__SINGLE_LP);
+fornext_entrylabel8:
+*__SINGLE_LP=fornext_value8;
+if (fornext_step_negative8){
+if (fornext_value8<fornext_finalvalue8) break;
+}else{
+if (fornext_value8>fornext_finalvalue8) break;
+}
+fornext_error8:;
+if(qbevent){evnt(41);if(r)goto S_19;}
+do{
+sub_cls(NULL,NULL,0);
+if(!qbevent)break;evnt(43);}while(r);
+do{
+tqbs=qbs_new(0,0);
+qbs_set(tqbs,qbs_new_txt_len("Grabbing packages from Arch Repo",32));
+if (new_error) goto skip9;
+makefit(tqbs);
+qbs_print(tqbs,0);
+qbs_print(nothingstring,1);
+skip9:
+qbs_free(tqbs);
+qbs_cleanup(qbs_tmp_base,0);
+if(!qbevent)break;evnt(45);}while(r);
+do{
+tqbs=qbs_new(0,0);
+qbs_print(nothingstring,1);
+skip10:
+qbs_free(tqbs);
+qbs_cleanup(qbs_tmp_base,0);
+if(!qbevent)break;evnt(46);}while(r);
+do{
+tqbs=qbs_new(0,0);
+qbs_set(tqbs,qbs_new_txt_len("Total packages to grab ",23));
+if (new_error) goto skip11;
+makefit(tqbs);
+qbs_print(tqbs,0);
+qbs_set(tqbs,qbs_add(qbs_str((float)(*__SINGLE_LP)),qbs_new_txt(" ")));
+if (new_error) goto skip11;
+makefit(tqbs);
+qbs_print(tqbs,0);
+qbs_set(tqbs,qbs_new_txt_len(" of",3));
+if (new_error) goto skip11;
+makefit(tqbs);
+qbs_print(tqbs,0);
+qbs_set(tqbs,qbs_add(qbs_str((float)(*__SINGLE_COUNT)),qbs_new_txt(" ")));
+if (new_error) goto skip11;
+makefit(tqbs);
+qbs_print(tqbs,0);
+qbs_print(nothingstring,1);
+skip11:
+qbs_free(tqbs);
+qbs_cleanup(qbs_tmp_base,0);
+if(!qbevent)break;evnt(47);}while(r);
+do{
+tqbs=qbs_new(0,0);
+qbs_print(nothingstring,1);
+skip12:
+qbs_free(tqbs);
+qbs_cleanup(qbs_tmp_base,0);
+if(!qbevent)break;evnt(48);}while(r);
+do{
+tqbs=qbs_new(0,0);
+qbs_set(tqbs,qbs_new_txt_len("Current package: ",17));
+if (new_error) goto skip13;
+makefit(tqbs);
+qbs_print(tqbs,0);
+qbs_set(tqbs,qbs_add(((qbs*)(((uint64*)(__ARRAY_STRING_FILE[0]))[array_check((qbr(*__SINGLE_LP))-__ARRAY_STRING_FILE[4],__ARRAY_STRING_FILE[5])])),qbs_new_txt_len(" #",2)));
+if (new_error) goto skip13;
+makefit(tqbs);
+qbs_print(tqbs,0);
+qbs_set(tqbs,qbs_add(qbs_str((float)(*__SINGLE_LP)),qbs_new_txt(" ")));
+if (new_error) goto skip13;
+makefit(tqbs);
+qbs_print(tqbs,0);
+qbs_print(nothingstring,1);
+skip13:
+qbs_free(tqbs);
+qbs_cleanup(qbs_tmp_base,0);
+if(!qbevent)break;evnt(49);}while(r);
+do{
+sub_shell(qbs_add(qbs_add(qbs_new_txt_len("pacman -Sw --cachedir /home/darren/repo_packages ",49),((qbs*)(((uint64*)(__ARRAY_STRING_FILE[0]))[array_check((qbr(*__SINGLE_LP))-__ARRAY_STRING_FILE[4],__ARRAY_STRING_FILE[5])]))),qbs_new_txt_len(" --noconfirm",12)),1);
+qbs_cleanup(qbs_tmp_base,0);
+if(!qbevent)break;evnt(51);}while(r);
+fornext_continue_7:;
+}
+fornext_exit_7:;
+do{
+if (sub_gl_called) error(271);
+close_program=1;
+end();
+if(!qbevent)break;evnt(55);}while(r);
+sub_end();
+return;
+}
+void SUB_VWATCH(){
+qbs *tqbs;
+ptrszint tmp_long;
+int32 tmp_fileno;
+uint32 qbs_tmp_base=qbs_tmp_list_nexti;
+uint8 *tmp_mem_static_pointer=mem_static_pointer;
+uint32 tmp_cmem_sp=cmem_sp;
+#include "data1.txt"
+mem_lock *sf_mem_lock;
+new_mem_lock();
+sf_mem_lock=mem_lock_tmp;
+sf_mem_lock->type=3;
+if (new_error) goto exit_subfunc;
+exit_subfunc:;
+free_mem_lock(sf_mem_lock);
+#include "free1.txt"
+if ((tmp_mem_static_pointer>=mem_static)&&(tmp_mem_static_pointer<=mem_static_limit)) mem_static_pointer=tmp_mem_static_pointer; else mem_static_pointer=mem_static;
+cmem_sp=tmp_cmem_sp;
+}

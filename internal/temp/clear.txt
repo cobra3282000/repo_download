@@ -1,0 +1,65 @@
+if (__ARRAY_STRING_TEMP[2]&1){
+if (__ARRAY_STRING_TEMP[2]&2){
+tmp_long=__ARRAY_STRING_TEMP[5];
+while(tmp_long--){
+((qbs*)(((uint64*)(__ARRAY_STRING_TEMP[0]))[tmp_long]))->len=0;
+}
+}else{
+tmp_long=__ARRAY_STRING_TEMP[5];
+while(tmp_long--){
+qbs_free((qbs*)(((uint64*)(__ARRAY_STRING_TEMP[0]))[tmp_long]));
+}
+free((void*)(__ARRAY_STRING_TEMP[0]));
+__ARRAY_STRING_TEMP[2]^=1;
+__ARRAY_STRING_TEMP[4]=2147483647;
+__ARRAY_STRING_TEMP[5]=0;
+__ARRAY_STRING_TEMP[6]=0;
+__ARRAY_STRING_TEMP[0]=(ptrszint)&nothingstring;
+}
+}
+if (__ARRAY_STRING_FILE[2]&1){
+if (__ARRAY_STRING_FILE[2]&2){
+tmp_long=__ARRAY_STRING_FILE[5];
+while(tmp_long--){
+((qbs*)(((uint64*)(__ARRAY_STRING_FILE[0]))[tmp_long]))->len=0;
+}
+}else{
+tmp_long=__ARRAY_STRING_FILE[5];
+while(tmp_long--){
+qbs_free((qbs*)(((uint64*)(__ARRAY_STRING_FILE[0]))[tmp_long]));
+}
+free((void*)(__ARRAY_STRING_FILE[0]));
+__ARRAY_STRING_FILE[2]^=1;
+__ARRAY_STRING_FILE[4]=2147483647;
+__ARRAY_STRING_FILE[5]=0;
+__ARRAY_STRING_FILE[6]=0;
+__ARRAY_STRING_FILE[0]=(ptrszint)&nothingstring;
+}
+}
+if (__ARRAY_STRING_VER[2]&1){
+if (__ARRAY_STRING_VER[2]&2){
+tmp_long=__ARRAY_STRING_VER[5];
+while(tmp_long--){
+((qbs*)(((uint64*)(__ARRAY_STRING_VER[0]))[tmp_long]))->len=0;
+}
+}else{
+tmp_long=__ARRAY_STRING_VER[5];
+while(tmp_long--){
+qbs_free((qbs*)(((uint64*)(__ARRAY_STRING_VER[0]))[tmp_long]));
+}
+free((void*)(__ARRAY_STRING_VER[0]));
+__ARRAY_STRING_VER[2]^=1;
+__ARRAY_STRING_VER[4]=2147483647;
+__ARRAY_STRING_VER[5]=0;
+__ARRAY_STRING_VER[6]=0;
+__ARRAY_STRING_VER[0]=(ptrszint)&nothingstring;
+}
+}
+*__SINGLE_COUNT=0;
+__STRING_AA->len=0;
+*__SINGLE_T=0;
+*__SINGLE_LL=0;
+*__SINGLE_L3=0;
+__STRING_TT->len=0;
+*__SINGLE_L4=0;
+*__SINGLE_LP=0;

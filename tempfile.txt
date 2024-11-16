@@ -10,6 +10,8 @@ acreetionOSREPO/aarch64-linux-gnu-binutils 2.40-1
     A set of programs to assemble and manipulate binary and object files for the ARM64 target
 acreetionOSREPO/acl-debug 2.3.1-3
     Detached debugging symbols for acl
+acreetionOSREPO/amd-ucode 20230404.2e92a49f-1 [installed: 20241111.b5885ec5-1]
+    Microcode update image for AMD CPUs
 acreetionOSREPO/argon2-debug 20190702-5
     Detached debugging symbols for argon2
 acreetionOSREPO/attr 2.5.1-3 [installed: 2.5.2-1]
@@ -108,14 +110,134 @@ acreetionOSREPO/kbd 2.5.1-2 [installed: 2.6.4-3]
     Keytable files and keyboard utilities
 acreetionOSREPO/keyutils 1.6.3-2 [installed: 1.6.3-3]
     Linux Key Management Utilities
+acreetionOSREPO/less-debug 1:633-1
+    Detached debugging symbols for less
+acreetionOSREPO/libaio 0.3.113-2 [installed: 0.3.113-3]
+    The Linux-native asynchronous I/O facility (aio) library
+acreetionOSREPO/libarchive-debug 3.6.2-2
+    Detached debugging symbols for libarchive
+acreetionOSREPO/libassuan 2.5.5-2 [installed: 3.0.0-1]
+    IPC library used by some GnuPG related software
+acreetionOSREPO/libbpf 1.2.0-1 [installed: 1.4.3-1]
+    Library for loading eBPF programs and reading and manipulating eBPF objects from user-space
+acreetionOSREPO/libedit-debug 20221030_3.1-1
+    Detached debugging symbols for libedit
+acreetionOSREPO/libffi-debug 3.4.4-1
+    Detached debugging symbols for libffi
+acreetionOSREPO/libgcrypt 1.10.2-1 [installed: 1.11.0-2]
+    General purpose cryptographic library based on the code from GnuPG
+acreetionOSREPO/libgpg-error-debug 1.47-1
+    Detached debugging symbols for libgpg-error
+acreetionOSREPO/libidn2-debug 2.3.4-3
+    Detached debugging symbols for libidn2
+acreetionOSREPO/libisl-debug 0.26-1
+    Detached debugging symbols for libisl
+acreetionOSREPO/libksba-debug 1.6.3-1
+    Detached debugging symbols for libksba
+acreetionOSREPO/libmnl 1.0.5-1 [installed: 1.0.5-2]
+    Minimalistic user-space library oriented to Netlink developers.
+acreetionOSREPO/libmpc 1.3.1-1 [installed: 1.3.1-2]
+    Library for the arithmetic of complex numbers with arbitrarily high precision
+acreetionOSREPO/libnetfilter_conntrack-debug 1.0.9-1
+    Detached debugging symbols for libnetfilter_conntrack
+acreetionOSREPO/libnfnetlink 1.0.2-1 [installed: 1.0.2-2]
+    Low-level library for netfilter related kernel/userspace communication
+acreetionOSREPO/libnftnl 1.2.5-1 [installed: 1.2.8-1]
+    Netfilter library providing interface to the nf_tables subsystem
+acreetionOSREPO/libnghttp2 1.53.0-1 [installed: 1.64.0-1]
+    Framing layer of HTTP/2 is implemented as a reusable C library
+acreetionOSREPO/libnl-debug 3.7.0-3
+    Detached debugging symbols for libnl
+acreetionOSREPO/libnsl 2.0.0-3 [installed: 2.0.1-1]
+    Public client interface library for NIS(YP)
 acreetionOSREPO/libpamac-aur 11.7.0-1
     Pamac package manager library based on libalpm
+acreetionOSREPO/libpcap-debug 1.10.4-1
+    Detached debugging symbols for libpcap
+acreetionOSREPO/libpipeline 1.5.7-1
+    a C library for manipulating pipelines of subprocesses in a flexible and convenient way
+acreetionOSREPO/libtasn1 4.19.0-1 [installed: 4.19.0-2]
+    The ASN.1 library used in GNUTLS
+acreetionOSREPO/libtirpc-debug 1.3.3-2
+    Detached debugging symbols for libtirpc
+acreetionOSREPO/libunistring 1.1-2 [installed: 1.2-1]
+    Library for manipulating Unicode strings and C strings
+acreetionOSREPO/libusb 1.0.26-2 [installed: 1.0.27-1]
+    Library that provides generic access to USB devices
+acreetionOSREPO/libverto 0.3.2-4 [installed: 0.3.2-5]
+    Main event loop abstraction library
+acreetionOSREPO/libxml2-debug 2.10.4-5
+    Detached debugging symbols for libxml2
+acreetionOSREPO/linux-api-headers 6.3-1 [installed: 6.10-1]
+    Kernel headers sanitized for use in userspace
+acreetionOSREPO/logrotate 3.21.0-2
+    Rotates system logs automatically
+acreetionOSREPO/lz4-debug 1:1.9.4-1
+    Detached debugging symbols for lz4
+acreetionOSREPO/lzo 2.10-5 [installed]
+    Portable lossless data compression library
+acreetionOSREPO/m4-debug 1.4.19-3
+    Detached debugging symbols for m4
+acreetionOSREPO/make-debug 4.4.1-2
+    Detached debugging symbols for make
+acreetionOSREPO/man-pages 6.04-1
+    Linux man pages
+acreetionOSREPO/mdadm 4.2-2 [installed: 4.3-2]
+    A tool for managing/monitoring Linux md device arrays, also known as Software RAID
+acreetionOSREPO/mkinitcpio-busybox-debug 1.35.0-1
+    Detached debugging symbols for mkinitcpio-busybox
+acreetionOSREPO/mkinitcpio-nfs-utils-debug 0.3-7
+    Detached debugging symbols for mkinitcpio-nfs-utils
 acreetionOSREPO/mkinitcpio-openswap 0.1.0-3 [installed]
     mkinitcpio hook to open swap at boot time
+acreetionOSREPO/mpdecimal-debug 2.5.1-1
+    Detached debugging symbols for mpdecimal
+acreetionOSREPO/mpfr 4.2.0.p7-2 [installed: 4.2.1-4]
+    Multiple-precision floating-point library
+acreetionOSREPO/nano-debug 7.2-1
+    Detached debugging symbols for nano
+acreetionOSREPO/ncurses 6.4-1 [installed: 6.5-3]
+    System V Release 4.0 curses emulation library
+acreetionOSREPO/net-tools-debug 2.10-2
+    Detached debugging symbols for net-tools
+acreetionOSREPO/nettle 3.9-1 [installed: 3.10-1]
+    A low-level cryptographic library
+acreetionOSREPO/nilfs-utils 2.2.9-2
+    A log-structured file system supporting continuous snapshotting (userspace utils)
+acreetionOSREPO/npth 1.6-4 [installed: 1.7-1]
+    The new GNU portable threads library
+acreetionOSREPO/nspr-debug 4.35-1
+    Detached debugging symbols for nspr
+acreetionOSREPO/openssl-1.1 1.1.1.t-1
+    The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
+acreetionOSREPO/openssl-debug 3.0.8-1
+    Detached debugging symbols for openssl
+acreetionOSREPO/pacman-mirrorlist 20230410-1 [installed: 20240717-1]
+    Arch Linux mirror list for use by pacman
+acreetionOSREPO/pam-debug 1.5.3-1
+    Detached debugging symbols for pam
 acreetionOSREPO/pamac-aur-git 11.7.2.r0.g71ced27-1
     Pamac package manager - library, gui, cli
 acreetionOSREPO/pamac-aur-git-debug 11.7.2.r0.g71ced27-1
     Detached debugging symbols for pamac-aur-git
+acreetionOSREPO/pambase 20221020-1 [installed: 20230918-2]
+    Base PAM configuration for services
+acreetionOSREPO/pciutils 3.10.0-1 [installed: 3.13.0-2]
+    PCI bus configuration space access library and tools
+acreetionOSREPO/pcre-debug 8.45-3
+    Detached debugging symbols for pcre
+acreetionOSREPO/pcre2-debug 10.42-2
+    Detached debugging symbols for pcre2
+acreetionOSREPO/perl-debug 5.36.1-1
+    Detached debugging symbols for perl
+acreetionOSREPO/popt-debug 1.19-1
+    Detached debugging symbols for popt
+acreetionOSREPO/pptpclient 1.10.0-3
+    Client for the proprietary Microsoft Point-to-Point Tunneling Protocol, PPTP.
+acreetionOSREPO/procps-ng-debug 3.3.17-1
+    Detached debugging symbols for procps-ng
+acreetionOSREPO/psmisc 23.6-1 [installed: 23.7-1]
+    Miscellaneous procfs tools
 acreetionOSREPO/vesktop-bin 1.5.3-1 [installed]
     A cross platform electron-based desktop app aiming to give you a snappier Discord experience with Vencord pre-installed
 acreetionOSREPO/webapp-manager-git 1.3.7.r0.g1418210-1
@@ -602,7 +724,7 @@ core/sqlite-doc 3.46.1-1
     most of the static HTML files that comprise this website, including all of the SQL Syntax and the C/C++ interface specs and other miscellaneous documentation
 core/sqlite-tcl 3.46.1-1
     sqlite Tcl Extension Architecture (TEA)
-core/sudo 1.9.16-1 [installed]
+core/sudo 1.9.16.p1-1 [installed]
     Give certain users the ability to run some commands as root
 core/syslinux 6.04.pre3.r3.g05ac953c-3
     Collection of boot loaders that boot from FAT, ext2/3/4 and btrfs filesystems, from CDs and via PXE
@@ -1086,7 +1208,7 @@ extra/apt-docs 2.9.10-1
     Documentation for apt
 extra/aqbanking 6.5.4-2
     A library for online banking and financial applications
-extra/aquamarine 0.4.5-1
+extra/aquamarine 0.5.0-1
     a very light linux rendering backend library
 extra/arandr 0.1.11-3
     Provide a simple visual front end for XRandR 1.2.
@@ -1914,7 +2036,7 @@ extra/buho 4.0.0-1 (maui)
     Task and note keeper
 extra/build2 0.17.0-1
     build2 build system
-extra/buildah 1.37.5-1
+extra/buildah 1.38.0-1
     A tool which facilitates building OCI images
 extra/buildbot 3.11.9-1
     The Continuous Integration Framework
@@ -2388,7 +2510,7 @@ extra/ciano 0.2.4-6
     Multimedia file converter focused on simplicity
 extra/cifs-utils 7.1-1 [installed]
     CIFS filesystem user-space tools
-extra/cilium-cli 0.16.19-1
+extra/cilium-cli 0.16.20-1
     install, manage & troubleshoot Kubernetes clusters running Cilium
 extra/cimg 3.2.6-2
     Open-source C++ toolkit for image processing
@@ -3780,13 +3902,13 @@ extra/editorconfig-checker 3.0.3-1
     A tool to verify that your files are in harmony with your .editorconfig
 extra/editorconfig-core-c 0.12.9-1
     EditorConfig core code written in C (for use by plugins supporting EditorConfig parsing)
-extra/edk2-aarch64 202408-2
+extra/edk2-aarch64 202408.01-1
     Firmware for Virtual Machines (aarch64)
-extra/edk2-arm 202408-2
+extra/edk2-arm 202408.01-1
     Firmware for Virtual Machines (armv7)
-extra/edk2-ovmf 202408-2
+extra/edk2-ovmf 202408.01-1
     Firmware for Virtual Machines (x86_64, i686)
-extra/edk2-shell 202408-2
+extra/edk2-shell 202408.01-1
     EDK2 UEFI Shell
 extra/efifs 1.10-1
     Standalone EFI file system drivers
@@ -3976,7 +4098,7 @@ extra/esbuild 0.24.0-1
     An extremely fast JavaScript and CSS bundler and minifier.
 extra/esh 0.3.2-2
     Simple templating engine based on shell
-extra/eslint 9.14.0-1
+extra/eslint 9.15.0-1
     An AST-based pattern checker for JavaScript
 extra/eslint-language-server 3.0.10-1
     Language server for ESLint
@@ -5050,9 +5172,9 @@ extra/fwbuilder 5.3.7-17
     Object-oriented GUI and set of compilers for various firewall platforms
 extra/fwknop 2.6.11-1
     FireWall KNock OPerator: Single Packet Authorization and Port Knocking
-extra/fwupd 2.0.1-1
+extra/fwupd 2.0.1-2
     Simple daemon to allow session software to update firmware
-extra/fwupd-docs 2.0.1-1
+extra/fwupd-docs 2.0.1-2
     Simple daemon to allow session software to update firmware - documentation
 extra/fwupd-efi 1.7-1
     EFI Application used by uefi-capsule plugin in fwupd
@@ -5060,7 +5182,7 @@ extra/fx 35.0.0-1
     Command-line tool and terminal JSON viewer
 extra/fyi 1.0.4-1
     A command line utility and notify-send alternative to send desktop notifications
-extra/fzf 0.55.0-1
+extra/fzf 0.56.3-1
     Command-line fuzzy finder
 extra/fzy 1.0-3
     A better fuzzy finder
@@ -5370,9 +5492,9 @@ extra/geogram 1.8.8-3
     Library of geometric algorithms
 extra/geoip 1.6.12-3
     Non-DNS IP-to-country resolver C library & utils
-extra/geoip-database 20240720-1
+extra/geoip-database 20241116-1
     GeoIP legacy country database (based on GeoLite2 data created by MaxMind)
-extra/geoip-database-extra 20240720-1
+extra/geoip-database-extra 20241116-1
     GeoIP legacy city/ASN databases (based on GeoLite2 data created by MaxMind)
 extra/geoipupdate 7.0.1-1
     Update GeoIP2 and GeoIP Legacy binary databases from MaxMind
@@ -5710,7 +5832,7 @@ extra/gmtk 1.0.9-7
     Common functions for gnome-mplayer and gecko-mediaplayer
 extra/gmtp 1.3.11-4
     A simple MP3 player client for MTP based devices
-extra/gn 0.2174.b3a0bff4-1
+extra/gn 0.2201.feafd101-1
     Meta-build system that generates build files for Ninja
 extra/gnac 0.2.4.1-16
     Audio converter for GNOME
@@ -5946,13 +6068,13 @@ extra/go-ethereum 1.14.11-1
     Official Go implementation of the Ethereum protocol
 extra/go-licenses 1.6.0-2
     Reports on the licenses used by a Go package and its dependencies
-extra/go-md2man 2.0.4-1
+extra/go-md2man 2.0.5-1
     A markdown to manpage generator
 extra/go-swagger 0.31.0-2
     Swagger 2.0 implementation in Go
 extra/go-task 3.39.2-3
     A task runner written in Go
-extra/go-tools 4:0.26.0-1
+extra/go-tools 4:0.27.0-1
     Developer tools for the Go programming language
 extra/go-yq 4.44.5-1
     Portable command-line YAML processor
@@ -9406,9 +9528,9 @@ extra/incidenceeditor 24.08.3-1
     KDE PIM incidence editor
 extra/incron 0.5.12-6
     Like the regular cron but is driven by filesystem events instead of time periods
-extra/incus 6.6-2
+extra/incus 6.7-1
     Powerful system container and virtual machine manager
-extra/incus-tools 6.6-2
+extra/incus-tools 6.7-1
     Powerful system container and virtual machine manager
 extra/indent 2.2.13-2
     C language source code formatting program
@@ -9842,7 +9964,7 @@ extra/jupyter-server-fileid 0.9.3-1
     A Jupyter Server extension providing an implementation of the File ID service
 extra/jupyter-server-mathjax 0.2.6-3
     MathJax resources as a Jupyter Server Extension
-extra/jupyterlab 4.3.0-1
+extra/jupyterlab 4.3.1-1
     JupyterLab computational environment
 extra/jupyterlab-lsp 5.1.0-4
     Coding assistance for JupyterLab with Language Server Protocol.
@@ -10998,33 +11120,33 @@ extra/libbf 2020.01.19-2
     A small library to handle arbitrary precision floating point numbers
 extra/libblastrampoline 5.12.0-1
     Using PLT trampolines to provide a BLAS and LAPACK demuxing library
-extra/libblockdev 3.2.1-1 [installed]
+extra/libblockdev 3.2.1-2 [installed]
     A library for manipulating block devices
-extra/libblockdev-btrfs 3.2.1-1
+extra/libblockdev-btrfs 3.2.1-2
     A library for manipulating block devices - BTRFS support
-extra/libblockdev-crypto 3.2.1-1 [installed]
+extra/libblockdev-crypto 3.2.1-2 [installed]
     A library for manipulating block devices - crypto support
-extra/libblockdev-dm 3.2.1-1
+extra/libblockdev-dm 3.2.1-2
     A library for manipulating block devices - device mapper support
-extra/libblockdev-fs 3.2.1-1 [installed]
+extra/libblockdev-fs 3.2.1-2 [installed]
     A library for manipulating block devices - filesystem support
-extra/libblockdev-loop 3.2.1-1 [installed]
+extra/libblockdev-loop 3.2.1-2 [installed]
     A library for manipulating block devices - loop device support
-extra/libblockdev-lvm 3.2.1-1
+extra/libblockdev-lvm 3.2.1-2
     A library for manipulating block devices - LVM support
-extra/libblockdev-mdraid 3.2.1-1 [installed]
+extra/libblockdev-mdraid 3.2.1-2 [installed]
     A library for manipulating block devices - MDRAID support
-extra/libblockdev-mpath 3.2.1-1
+extra/libblockdev-mpath 3.2.1-2
     A library for manipulating block devices - multipath device support
-extra/libblockdev-nvdimm 3.2.1-1
+extra/libblockdev-nvdimm 3.2.1-2
     A library for manipulating block devices - NVDIMM support
-extra/libblockdev-nvme 3.2.1-1 [installed]
+extra/libblockdev-nvme 3.2.1-2 [installed]
     A library for manipulating block devices - NVME support
-extra/libblockdev-part 3.2.1-1 [installed]
+extra/libblockdev-part 3.2.1-2 [installed]
     A library for manipulating block devices - partitioning support
-extra/libblockdev-smart 3.2.1-1
+extra/libblockdev-smart 3.2.1-2
     A library for manipulating block devices - S.M.A.R.T. support
-extra/libblockdev-swap 3.2.1-1 [installed]
+extra/libblockdev-swap 3.2.1-2 [installed]
     A library for manipulating block devices - swap device support
 extra/libbluray 1.3.4-2 [installed]
     Library to access Blu-Ray disks for video playback
@@ -11780,7 +11902,7 @@ extra/libnumbertext 1.0.11-2
     Number to number name and money text conversion library
 extra/libnvidia-container 1.17.1-1
     NVIDIA container runtime library
-extra/libnvme 1.10-1 [installed]
+extra/libnvme 1.11.1-1 [installed]
     C Library for NVM Express on Linux
 extra/liboauth 1:1.0.3+r16+gc26f038-2
     C library implementing OAuth Core RFC 5849
@@ -14428,7 +14550,7 @@ extra/mkinitcpio-netconf 0.0.5-3
     Archlinux mkinitcpio hook for configuring early userspace networking
 extra/mkinitcpio-systemd-tool 38-2
     Provisioning tool for systemd in initramfs (systemd-tool)
-extra/mkinitcpio-tinyssh 0.0.4-5
+extra/mkinitcpio-tinyssh 0.0.5-1
     Archlinux mkinitcpio hook to install and enable the tinyssh daemon in early userspace
 extra/mkinitcpio-utils 0.0.4-2
     Collection of Archlinux mkinitcpio utilities performing various tasks
@@ -15012,7 +15134,7 @@ extra/nim 2.0.8-1
     Imperative, multi-paradigm, compiled programming language
 extra/ninja 1.12.1-1 [installed]
     Small build system with a focus on speed
-extra/niri 0.1.9-1
+extra/niri 0.1.10.1-1
     A scrollable-tiling Wayland compositor
 extra/nitrocli 0.4.1-3
     A command line tool for interacting with Nitrokey devices
@@ -15188,7 +15310,7 @@ extra/nvidia-settings 565.57.01-1
     Tool for configuring the NVIDIA graphics driver
 extra/nvidia-utils 565.57.01-1 [installed]
     NVIDIA drivers utilities
-extra/nvme-cli 2.10.2-1
+extra/nvme-cli 2.11-1
     NVM-Express user space tooling for Linux
 extra/nvmetcli 0.8-3
     Command line interface for the kernel NVMe target
@@ -15572,7 +15694,7 @@ extra/openresolv 3.13.2-2
     resolv.conf management framework (resolvconf)
 extra/openrgb 0.9-4
     Open source RGB lighting control that doesn't depend on manufacturer software
-extra/opensc 0.26.0-1
+extra/opensc 0.26.0-2
     Tools and libraries for smart cards
 extra/openscad 2021.01-12
     The programmers solid 3D CAD modeller
@@ -17664,7 +17786,7 @@ extra/php-legacy-imagick 3.7.0-9
     PHP extension to create and modify images using the ImageMagick library
 extra/php-legacy-memcache 8.2-4
     Memcache module for PHP Legacy
-extra/php-legacy-memcached 3.2.0-5
+extra/php-legacy-memcached 3.3.0-1
     PHP Legacy extension for interfacing with memcached via libmemcached library
 extra/php-legacy-mongodb 1.20.0-1
     MongoDB driver for PHP Legacy
@@ -17690,7 +17812,7 @@ extra/php-legacy-xsl 8.2.25-1
     xsl module for PHP
 extra/php-memcache 8.2-4
     Memcache module for PHP
-extra/php-memcached 3.2.0-5
+extra/php-memcached 3.3.0-1
     PHP extension for interfacing with memcached via libmemcached library
 extra/php-mongodb 1.20.0-1
     MongoDB driver for PHP
@@ -17954,11 +18076,11 @@ extra/pocl 6.0-2
     Portable OpenCL is an open-source implementation of OpenCL which can be easily adapted for new targets
 extra/poco 1.13.3-1
     C++ class libraries for network-centric, portable applications, complete edition with debug libraries
-extra/podman 5.2.5-1
+extra/podman 5.3.0-1
     Tool and library for running OCI-based containers in pods
 extra/podman-compose 1.2.0-1
     A script to run docker-compose.yml using podman
-extra/podman-docker 5.2.5-1
+extra/podman-docker 5.3.0-1
     Emulate Docker CLI using podman
 extra/podofo 0.10.3-1
     A C++ library to work with the PDF file format
@@ -19162,7 +19284,7 @@ extra/python-dpkt 1.9.8-3
     Fast, simple packet creation / parsing, with definitions for the basic TCP/IP protocols
 extra/python-dropbox 12.0.2-1
     Python SDK for Dropbox Core APIs
-extra/python-dulwich 0.22.5-1
+extra/python-dulwich 0.22.6-1
     Pure-Python implementation of the Git file formats and protocols
 extra/python-dunamai 1.22.0-1
     A library for producing dynamic version strings, derived from VCS tags
@@ -19904,7 +20026,7 @@ extra/python-lhafile 0.3.0-4
     LHA archive support for Python
 extra/python-libarchive-c 5.1-2
     Python interface to libarchive
-extra/python-libblockdev 3.2.1-1
+extra/python-libblockdev 3.2.1-2
     A library for manipulating block devices - Python support
 extra/python-libcamera 0.3.2-1
     A complex camera support library for Linux, Android, and ChromeOS - Python integration
@@ -20370,7 +20492,7 @@ extra/python-owslib 0.31.0-1
     Python package for client programming with Open Geospatial Consortium (OGC) web service interface standards, and their related content models
 extra/python-oyaml 1.1-2
     A drop-in replacement for PyYAML which preserves dict ordering
-extra/python-packaging 24.1-1 [installed]
+extra/python-packaging 24.2-1 [installed]
     Core utilities for Python packages
 extra/python-paho-mqtt 1.6.1-4
     Python client library for MQTT v3.1 and v3.1.1
@@ -21794,7 +21916,7 @@ extra/python-textdistance 4.6.3-1
     Compute distance between sequences
 extra/python-texttable 1.7.0-2
     Generate a formatted text table using ASCII characters
-extra/python-textual 0.85.2-1
+extra/python-textual 0.86.1-1
     Modern Text User Interface framework
 extra/python-tftpy 0.8.2-3
     Pure Python TFTP library
@@ -21850,7 +21972,7 @@ extra/python-tox 4.12.1-2
     Python virtualenv management and testing tool
 extra/python-tox-current-env 0.0.11-3
     tox plugin to run tests in current Python environment
-extra/python-tpm2-pytss 2.1.0.r40.70a4ccc-1
+extra/python-tpm2-pytss 2.3.0-1
     Python bindings for tpm2-tss
 extra/python-tqdm 4.67.0-1 [installed]
     Fast, Extensible Progress Meter
@@ -22068,7 +22190,7 @@ extra/python-werkzeug 3.0.4-1
     Swiss Army knife of Python web development
 extra/python-whatthepatch 1.0.5-2
     A Python patch parsing library
-extra/python-wheel 0.44.0-2 [installed]
+extra/python-wheel 0.45.0-1 [installed]
     A built-package format for Python
 extra/python-wheezy-template 3.2.2-2
     A lightweight template library
@@ -22846,7 +22968,7 @@ extra/rbw 1.12.1-1
     Unofficial Bitwarden CLI
 extra/rccl 6.2.2-1
     ROCm Communication Collectives Library
-extra/rclone 1.68.1-1
+extra/rclone 1.68.2-1
     Sync files to and from Google Drive, S3, Swift, Cloudfiles, Dropbox and Google Cloud Storage
 extra/rcs 5.10.1-2
     Revision Control System: manages multiple revisions of files
@@ -22964,7 +23086,7 @@ extra/reptyr 0.10.0-2
     Utility for taking an existing running program and attaching it to a new terminal
 extra/resources 1.6.0-3
     Monitor for system resources and processes
-extra/restic 0.17.1-1
+extra/restic 0.17.3-1
     Fast, secure, efficient backup program
 extra/restinio 0.7.2-2
     Header-only C++14 library that gives you an embedded HTTP/Websocket server
@@ -24286,6 +24408,8 @@ extra/sad 0.4.31-1
     Space Age seD
 extra/sage-data-combinatorial_designs 20140630-6
     Data for Combinatorial Designs
+extra/sage-data-cunningham_tables 1.0-1
+    List of the prime numbers occuring in the Cunningham table
 extra/sage-data-elliptic_curves 0.8.1-4
     Database of elliptic curves for SageMath
 extra/sage-data-graphs 20210214-3
@@ -25462,7 +25586,7 @@ extra/tailscale 1.76.6-1
     A mesh VPN that makes it easy to connect your devices, wherever they are.
 extra/tailspin 4.0.0-1
     A log file highlighter
-extra/tailwindcss-language-server 0.0.26-1
+extra/tailwindcss-language-server 0.0.27-1
     Tailwind CSS Language Server
 extra/talhelper 3.0.6-1
     A tool to help create Talos clusters in your GitOps repository

@@ -48,7 +48,7 @@ For lp = 1 To count
     Print
     Print "Current package: "; file$(lp) + " #"; lp
 
-    Shell "pacman -Sw --cachedir /home/darren/repo_packages " + file$(lp) + " --noconfirm"
+    Shell "pacman -Sw --cachedir /home/$USER/repo_packages " + file$(lp) + " --noconfirm"
 
 Next lp
 

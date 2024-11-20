@@ -63,3 +63,22 @@ __STRING_AA->len=0;
 __STRING_TT->len=0;
 *__SINGLE_L4=0;
 *__SINGLE_LP=0;
+if (__ARRAY_STRING_FLIE[2]&1){
+if (__ARRAY_STRING_FLIE[2]&2){
+tmp_long=__ARRAY_STRING_FLIE[5];
+while(tmp_long--){
+((qbs*)(((uint64*)(__ARRAY_STRING_FLIE[0]))[tmp_long]))->len=0;
+}
+}else{
+tmp_long=__ARRAY_STRING_FLIE[5];
+while(tmp_long--){
+qbs_free((qbs*)(((uint64*)(__ARRAY_STRING_FLIE[0]))[tmp_long]));
+}
+free((void*)(__ARRAY_STRING_FLIE[0]));
+__ARRAY_STRING_FLIE[2]^=1;
+__ARRAY_STRING_FLIE[4]=2147483647;
+__ARRAY_STRING_FLIE[5]=0;
+__ARRAY_STRING_FLIE[6]=0;
+__ARRAY_STRING_FLIE[0]=(ptrszint)&nothingstring;
+}
+}

@@ -81,3 +81,18 @@ static double fornext_value8;
 static double fornext_finalvalue8;
 static double fornext_step8;
 static uint8 fornext_step_negative8;
+if (!__ARRAY_STRING_FLIE){
+__ARRAY_STRING_FLIE=(ptrszint*)mem_static_malloc(9*ptrsz);
+new_mem_lock();
+mem_lock_tmp->type=4;
+((ptrszint*)__ARRAY_STRING_FLIE)[8]=(ptrszint)mem_lock_tmp;
+__ARRAY_STRING_FLIE[4]= 0 ;
+__ARRAY_STRING_FLIE[5]=( 10 )-__ARRAY_STRING_FLIE[4]+1;
+__ARRAY_STRING_FLIE[6]=1;
+__ARRAY_STRING_FLIE[0]=(ptrszint)mem_static_malloc(__ARRAY_STRING_FLIE[5]*8);
+tmp_long=__ARRAY_STRING_FLIE[5];
+while(tmp_long--){
+((uint64*)(__ARRAY_STRING_FLIE[0]))[tmp_long]=(uint64)qbs_new(0,0);
+}
+__ARRAY_STRING_FLIE[2]=1+2;
+}

@@ -9,6 +9,7 @@ float *__SINGLE_L3=NULL;
 qbs *__STRING_TT=NULL;
 float *__SINGLE_L4=NULL;
 float *__SINGLE_LP=NULL;
+ptrszint *__ARRAY_STRING_FLIE=NULL;
 int32 console=1;
 int32 screen_hide_startup=1;
 int32 asserts=0;

@@ -10,6 +10,8 @@ _Dest _Console
 
 Dim temp$(20000), file$(20000), ver$(20000)
 
+Open "o", #5, "/home/log"
+
 Shell "sudo pacman -Ss > tempfile.txt"
 
 Open "i", #1, "tempfile.txt"
@@ -50,7 +52,11 @@ For lp = 1 To count
 
     Shell "pacman -Sw --cachedir /home/$USER/repo_packages " + file$(lp) + " --noconfirm"
 
+    Print #5, Date$; " - "; flie$(lp)
+
 Next lp
+
+Close #5
 
 System
 

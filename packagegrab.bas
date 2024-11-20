@@ -10,7 +10,7 @@ _Dest _Console
 
 Dim temp$(20000), file$(20000), ver$(20000)
 
-Open "o", #5, "/home/log"
+Open "o", #5, "/home/log/"+date$
 
 Shell "sudo pacman -Ss > tempfile.txt"
 

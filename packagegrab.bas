@@ -50,7 +50,7 @@ For lp = 1 To count
     Print
     Print "Current package: "; file$(lp) + " #"; lp
 
-    Shell "pacman -Sw --cachedir /home/$USER/repo_packages " + file$(lp) + " --noconfirm"
+    Shell "pacman -Sw --cachedir /drive1/repo/x86_64/  " + file$(lp) + " --noconfirm"
 
     Print #5, Date$; " - "; flie$(lp)
 
